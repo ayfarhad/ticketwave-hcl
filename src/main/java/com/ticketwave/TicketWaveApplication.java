@@ -1,0 +1,11 @@
+package com.ticketwave;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TicketWaveApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(TicketWaveApplication.class, args);
+    }
+}
